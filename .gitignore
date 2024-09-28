@@ -1,0 +1,60 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+xcuserdata/
+*.xcworkspace
+DerivedData/
+build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcassets
+
+# Swift Package Manager
+.swiftpm
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# Logs
+*.log
+
+# Custom settings
+*.xcuserstate
+
+# Simulator and device logs
+*.crash
+*.xcactivitylog
+*.plist
+*.moved-aside
+*.xccheckout
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM build folder
+.build/
+
+# SPM Packages
+Packages/
+
+# User-specific Xcode files
+*.xcuserdatad/
+*.xcsc​⬤
